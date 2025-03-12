@@ -233,13 +233,21 @@ header {
 }
 
 /* section 5*/
+/* section 7*/
+
+.operazioni {
+  width: 100%;
+}
+
+/* section 7*/
 
 /* main */
 
 /* footer */
 
 footer {
-  position: ;
+  background-color: #000000;
+  color: white;
 }
 
 /* footer */
