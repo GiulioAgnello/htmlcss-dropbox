@@ -56,8 +56,9 @@ ul {
 .blu-big {
   background-color: #0061fe;
   color: white;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
   border: none;
+  align-items: center;
 }
 
 .section {
@@ -173,10 +174,12 @@ header {
   border-left: 1px solid lightgray;
   border-right: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .bodycolumn > h3 {
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
@@ -194,10 +197,28 @@ header {
   padding-bottom: 10px;
 }
 
-/* section tre*/
+/* section 3*/
+/* section 4*/
 
-.title.window.center {
+.bodycolumn.team {
+  display: flex;
 }
+
+.team.left {
+  display: block;
+  flex-grow: 2;
+}
+
+.teamleftp {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tema.right {
+  flex-grow: 1;
+}
+
+/* section 4*/
 
 /* main */
 
