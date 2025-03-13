@@ -80,12 +80,13 @@ ul {
 .blu-big {
   background-color: #0061fe;
   color: white;
-  padding: 5px 10px 5px 10px;
+  padding: 8px 10px 8px 10px;
   border: none;
   align-items: center;
 }
 .blu-big > a {
   color: white;
+  font-size: 0.7rem;
 }
 
 section {
@@ -166,6 +167,10 @@ header {
   margin-top: 20px;
 }
 
+.checksolution {
+  display: flex;
+}
+
 .circle-blu {
   border-width: 4px;
   border-radius: 50%;
@@ -189,9 +194,13 @@ header {
   padding-left: 3px;
 }
 
+.card {
+  border: 1px solid lightgray;
+}
+
 .window {
   display: flex;
-  border: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
 }
 
 .title.window {
@@ -201,22 +210,44 @@ header {
   gap: 5px;
 }
 
-.bodycolumn * {
-  display: flex;
-  text-align: center;
-  justify-content: start;
-}
-.bodycolumn {
-  border-left: 1px solid lightgray;
-  border-right: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
-  padding-top: 30px;
-  padding-bottom: 30px;
+.topcard {
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
-.bodycolumn > h3 {
-  padding-top: 10px;
+.maincard {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
   padding-bottom: 10px;
+}
+.maincard * {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 10px;
+}
+
+.cardbutton * {
+  margin-bottom: 20px;
+}
+
+.cardbutton {
+  display: flex;
+  flex-direction: column;
+}
+
+.linkedot {
+  text-decoration: underline;
+  color: #0061fe;
+}
+
+.cardfoot * {
+  padding-bottom: 20px;
+  gap: 5px;
+}
+.cardfoot {
+  display: flex;
+  flex-direction: column;
 }
 
 .costo {
