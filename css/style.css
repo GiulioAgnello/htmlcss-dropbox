@@ -288,6 +288,7 @@ header {
 
 .check-blu {
   display: flex;
+  margin-bottom: -15px;
 }
 
 .costo {
