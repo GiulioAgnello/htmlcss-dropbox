@@ -16,77 +16,77 @@
   <body>
     <!-- head -->
     <header class="header top">
-      <div class="head-logo">
-        <img
-          class="logo-head"
-          src="./img/logo-small.png"
-          alt="logo aziendale"
-        />
-        <a href="#">Perchè dropbox</a>
-        <a href="#">Funzioni</a>
-        <a href="#">Piani e Prezzi</a>
-      </div>
-      <div class="head-nav">
-        <a href="#">Supporto</a>
-        <a href="à">Contatta l'ufficio vendite</a>
-        <a href="#">Accedi</a>
-        <button class="blu-small">inizia</button>
-      </div>
+      <nav class="head-left">
+        <ul>
+          <li><img src="./img/logo-small.png" alt="logo aziendale" /></li>
+          <li><a href="#">Perchè dropbox</a></li>
+          <li><a href="#">Funzioni</a></li>
+          <li><a href="#">Piani e Prezzi</a></li>
+        </ul>
+      </nav>
+      <nav class="head-right">
+        <ul>
+          <li><a href="#">Supporto</a></li>
+          <li><a href="à">Contatta l'ufficio vendite</a></li>
+          <li><a href="#">Accedi</a></li>
+          <li><button class="blu-small">inizia</button></li>
+        </ul>
+      </nav>
     </header>
     <!-- end head -->
 
     <main>
       <!-- main top -->
-      <div class="section jambo">
-        <div class="container-top">
-          <div class="row">
-            <h1>Tutto ciò che ti serve per il lavoro, in unico posto</h1>
+      <div id="jumbo">
+        <div class="containerxl">
+          <div>
+            <h1 class="titlebig">
+              Tutto ciò che ti serve per il lavoro, in unico posto
+            </h1>
           </div>
-          <div class="row">
-            <div class="col-1-3">
-              <p></p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-              tenetur voluptate cupiditate obcaecati harum recusandae inventore
-              nihil odio. Suscipit debitis dolorum placeat eos esse nesciunt
-              cum, ab veritatis libero provident.</p>
-              <button><a href="#">inizia la tua prova gratuita</a></button>
-            <p>Annulla in qualsiasi momento</p>
-            <i class="fa-solid fa-arrow-down"></i>
-            </div>
-            <div class="col-1-2">
-              <img class="jumbo" src="./img/jumbo.png" alt="jumbo" />
+          <div class="jumboscreen">
+            <div class="row">
+              <div class="col-30">
+                <div class="jumbotext">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Modi tenetur voluptate cupiditate obcaecati harum recusandae
+                    inventore nihil odio. Suscipit debitis dolorum placeat eos
+                    esse nesciunt cum, ab veritatis libero provident.
+                  </p>
+                  <button class="blu-big">
+                    <a href="#">inizia la tua prova gratuita</a>
+                  </button>
+                  <p>Annulla in qualsiasi momento</p>
+                </div>
+                <div class="downarrow">
+                  <i class="fa-solid fa-arrow-down"></i>
+                </div>
+              </div>
+              <div class="col-70">
+                <div class="jumboimg">
+                  <img class="jumbo" src="./img/jumbo.png" alt="jumbo" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <!-- end main top -->
-      <!-- section 1 -->
-      <div class="section 1">
+
+      <section id="solution">
         <div class="container">
           <div class="row">
             <div class="col-1-1">
-            <h3>Trova il piano business che fa per te</h3>
+              <h3>Trova il piano business che fa per te</h3>
+            </div>
           </div>
-        </div>
-        </div>
-      </div>
-      <!-- end section 1 -->
-      <!-- section 2 -->
-
-      <div class="section 2">
-        <div class="container">
           <div class="row">
             <button class="circle-blu"></button>
             <p class="cicleblu-text">fatturazione mensile</p>
             <button class="circle-white"></button>
-            <p class="circlewhite-text" >fatturazione annuale</p>
+            <p class="circlewhite-text">fatturazione annuale</p>
           </div>
-        </div>
-      </div>
-      <!-- end section 2 -->
-
-      <!-- section 3 -->
-      <div class="section 3">
-        <div class="container">
           <div class="row">
             <div class="col-1-3">
               <div class="title window">
@@ -107,124 +107,151 @@
                 </div>
                 <div class="funzione">
                   <i class="fa-solid fa-share-nodes"></i>
-                  <p>Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                  <p>
+                    Funzioni di produttività premium e condivisione file
+                    semplice e sicura
+                  </p>
                 </div>
-                <button class="blu-big"><a href="#">Prova gratis per 30 giorni</a></button>
-              <p>oppure <a href="#"> acquista ora</a></p>
-              <div class="linietta"></div>
-              <h5>Punti salienti del piano</h5>
-              <p>
-                <i class="fa-solid fa-check" style="color: #0058f0;"></i>Invia file a 110 gb con dr
-              </p>
-              <p>
-                <i class="fa-solid fa-check" style="color: #0058f0;"></i>Cartelle offline su dispositivi
-              </p>
+                <button class="blu-big">
+                  <a href="#">Prova gratis per 30 giorni</a>
+                </button>
+                <p>oppure <a href="#"> acquista ora</a></p>
+                <div class="linietta"></div>
+                <h5>Punti salienti del piano</h5>
+                <p>
+                  <i class="fa-solid fa-check" style="color: #0058f0"></i>Invia
+                  file a 110 gb con dr
+                </p>
+                <p>
+                  <i class="fa-solid fa-check" style="color: #0058f0"></i
+                  >Cartelle offline su dispositivi
+                </p>
+              </div>
             </div>
-          </div>
-            <div class="col-1-3"> <div class="title window">
-              <i class="fa-solid fa-user"></i>
-              <p>Singolo</p>
-            </div>
-            <div class="bodycolumn">
-              <h3>Professional</h3>
-              <div class="costo">€ 12.00</div>
-              <div class="mese">/mese</div>
-              <div class="utente">
+            <div class="col-1-3">
+              <div class="title window">
                 <i class="fa-solid fa-user"></i>
-                <p>1 utente</p>
+                <p>Singolo</p>
               </div>
-              <div class="spazio">
-                <i class="fa-solid fa-folder"></i>
-                <p>5 TB Spazio di archiviazione sciuro</p>
+              <div class="bodycolumn">
+                <h3>Professional</h3>
+                <div class="costo">€ 12.00</div>
+                <div class="mese">/mese</div>
+                <div class="utente">
+                  <i class="fa-solid fa-user"></i>
+                  <p>1 utente</p>
+                </div>
+                <div class="spazio">
+                  <i class="fa-solid fa-folder"></i>
+                  <p>5 TB Spazio di archiviazione sciuro</p>
+                </div>
+                <div class="funzione">
+                  <i class="fa-solid fa-share-nodes"></i>
+                  <p>
+                    Funzioni di produttività premium e condivisione file
+                    semplice e sicura
+                  </p>
+                </div>
+                <button class="blu-big">
+                  <a href="#">Prova gratis per 30 giorni</a>
+                </button>
+                <p>oppure <a href="#"> acquista ora</a></p>
+                <div class="linietta"></div>
+                <h5>Punti salienti del piano</h5>
+                <p>
+                  <i class="fa-solid fa-check" style="color: #0058f0"></i>Invia
+                  file a 110 gb con dr
+                </p>
+                <p>
+                  <i class="fa-solid fa-check" style="color: #0058f0"></i
+                  >Cartelle offline su dispositivi
+                </p>
               </div>
-              <div class="funzione">
-                <i class="fa-solid fa-share-nodes"></i>
-                <p>Funzioni di produttività premium e condivisione file semplice e sicura</p>
-              </div>
-              <button class="blu-big"><a href="#">Prova gratis per 30 giorni</a></button>
-            <p>oppure <a href="#"> acquista ora</a></p>
-            <div class="linietta"></div>
-            <h5>Punti salienti del piano</h5>
-            <p>
-              <i class="fa-solid fa-check" style="color: #0058f0;"></i>Invia file a 110 gb con dr
-            </p>
-            <p>
-              <i class="fa-solid fa-check" style="color: #0058f0;"></i>Cartelle offline su dispositivi
-            </p></div>
-          </div>
-            <div class="col-1-3"> <div class="title window">
-              <i class="fa-solid fa-user"></i>
-              <p>Singolo</p>
             </div>
-            <div class="bodycolumn">
-              <h3>Professional</h3>
-              <div class="costo">€ 12.00</div>
-              <div class="mese">/mese</div>
-              <div class="utente">
+            <div class="col-1-3">
+              <div class="title window">
                 <i class="fa-solid fa-user"></i>
-                <p>1 utente</p>
+                <p>Singolo</p>
               </div>
-              <div class="spazio">
-                <i class="fa-solid fa-folder"></i>
-                <p>5 TB Spazio di archiviazione sciuro</p>
+              <div class="bodycolumn">
+                <h3>Professional</h3>
+                <div class="costo">€ 12.00</div>
+                <div class="mese">/mese</div>
+                <div class="utente">
+                  <i class="fa-solid fa-user"></i>
+                  <p>1 utente</p>
+                </div>
+                <div class="spazio">
+                  <i class="fa-solid fa-folder"></i>
+                  <p>5 TB Spazio di archiviazione sciuro</p>
+                </div>
+                <div class="funzione">
+                  <i class="fa-solid fa-share-nodes"></i>
+                  <p>
+                    Funzioni di produttività premium e condivisione file
+                    semplice e sicura
+                  </p>
+                </div>
+                <button class="blu-big">
+                  <a href="#">Prova gratis per 30 giorni</a>
+                </button>
+                <p>oppure <a href="#"> acquista ora</a></p>
+                <div class="linietta"></div>
+                <h5>Punti salienti del piano</h5>
+                <p>
+                  <i class="fa-solid fa-check" style="color: #0058f0"></i>Invia
+                  file a 110 gb con dr
+                </p>
+                <p>
+                  <i class="fa-solid fa-check" style="color: #0058f0"></i
+                  >Cartelle offline su dispositivi
+                </p>
               </div>
-              <div class="funzione">
-                <i class="fa-solid fa-share-nodes"></i>
-                <p>Funzioni di produttività premium e condivisione file semplice e sicura</p>
-              </div>
-              <button class="blu-big"><a href="#">Prova gratis per 30 giorni</a></button>
-            <p>oppure <a href="#"> acquista ora</a></p>
-            <div class="linietta"></div>
-            <h5>Punti salienti del piano</h5>
-            <p>
-              <i class="fa-solid fa-check" style="color: #0058f0;"></i>Invia file a 110 gb con dr
-            </p>
-            <p>
-              <i class="fa-solid fa-check" style="color: #0058f0;"></i>Cartelle offline su dispositivi
-            </p>
-          </div>
+            </div>
           </div>
         </div>
-
-        
-      </div>
-    </div>
-        <!-- end section 3 -->
-        <!-- section 4 -->
-         <div class="section 4">
+      </section>
+      <!-- end section 3 -->
+      <!-- section 4 -->
+      <div class="section 4">
         <div class="container">
           <div class="row">
             <div class="col-1-1">
-            <div class="title window center">
-              <i class="fa-sharp fa-solid fa-building"></i>Team</div>
+              <div class="title window center">
+                <i class="fa-sharp fa-solid fa-building"></i>Team
+              </div>
               <div class="bodycolumn team">
                 <div class="team left">
                   <h4>Enterprise</h4>
                   <p class="teamleftp">Contatta l'ufficio vendite</p>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, voluptas.</p>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    At, voluptas.
+                  </p>
                 </div>
                 <div class="team right">
-                <button class="blu-big">Contatta l'ufficio vendite</button>
+                  <button class="blu-big">Contatta l'ufficio vendite</button>
                 </div>
               </div>
-            
             </div>
           </div>
         </div>
       </div>
-  
+
       <!-- end section 4 -->
-          <!-- section 5 -->
+      <!-- section 5 -->
 
       <div class="section 5">
         <div class="container">
           <div class="row">
             <div class="col-2-3">
-              <img class="partner" src="./img/partner.png" alt="partner">
+              <img class="partner" src="./img/partner.png" alt="partner" />
             </div>
             <div class="col-1-3">
               <h4>Entra in contatto con un partner Dropbox</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, id!
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officia, id!
               </p>
               <button class="bot-white">trova un partner</button>
             </div>
@@ -239,8 +266,8 @@
         <div class="container">
           <div class="row">
             <div class="col-1-1">
-            <h3>Esegui più operazioni con Dropbox Business</h3>
-          </div>
+              <h3>Esegui più operazioni con Dropbox Business</h3>
+            </div>
           </div>
         </div>
       </div>
@@ -252,25 +279,77 @@
         <div class="container">
           <div class="row">
             <div class="col-1-3">
-              <img class="operazioni" src="./img/business-feature-switching-tools.png" alt="">
+              <img
+                class="operazioni"
+                src="./img/business-feature-switching-tools.png"
+                alt=""
+              />
               <h4>Passa di meno da uno strumento</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum earum praesentium perferendis ipsum nihil! Illum.</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                earum praesentium perferendis ipsum nihil! Illum.
+              </p>
             </div>
-            <div class="col-1-3"> <img class="operazioni" src="./img/business-feature-switching-tools.png" alt="">
+            <div class="col-1-3">
+              <img
+                class="operazioni"
+                src="./img/business-feature-switching-tools.png"
+                alt=""
+              />
               <h4>Passa di meno da uno strumento</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum earum praesentium perferendis ipsum nihil! Illum.</p></div>
-            <div class="col-1-3"> <img class="operazioni" src="./img/business-feature-switching-tools.png" alt="">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                earum praesentium perferendis ipsum nihil! Illum.
+              </p>
+            </div>
+            <div class="col-1-3">
+              <img
+                class="operazioni"
+                src="./img/business-feature-switching-tools.png"
+                alt=""
+              />
               <h4>Passa di meno da uno strumento</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum earum praesentium perferendis ipsum nihil! Illum.</p></div>
-            <div class="col-1-3"> <img class="operazioni" src="./img/business-feature-switching-tools.png" alt="">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                earum praesentium perferendis ipsum nihil! Illum.
+              </p>
+            </div>
+            <div class="col-1-3">
+              <img
+                class="operazioni"
+                src="./img/business-feature-switching-tools.png"
+                alt=""
+              />
               <h4>Passa di meno da uno strumento</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum earum praesentium perferendis ipsum nihil! Illum.</p></div>
-            <div class="col-1-3"> <img class="operazioni" src="./img/business-feature-switching-tools.png" alt="">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                earum praesentium perferendis ipsum nihil! Illum.
+              </p>
+            </div>
+            <div class="col-1-3">
+              <img
+                class="operazioni"
+                src="./img/business-feature-switching-tools.png"
+                alt=""
+              />
               <h4>Passa di meno da uno strumento</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum earum praesentium perferendis ipsum nihil! Illum.</p></div>
-            <div class="col-1-3"> <img class="operazioni" src="./img/business-feature-switching-tools.png" alt="">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                earum praesentium perferendis ipsum nihil! Illum.
+              </p>
+            </div>
+            <div class="col-1-3">
+              <img
+                class="operazioni"
+                src="./img/business-feature-switching-tools.png"
+                alt=""
+              />
               <h4>Passa di meno da uno strumento</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum earum praesentium perferendis ipsum nihil! Illum.</p></div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                earum praesentium perferendis ipsum nihil! Illum.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -281,8 +360,8 @@
         <div class="container">
           <div class="row">
             <div class="col-1-1">
-            <h3>Più di 500.000 tema utilizzano Dropbox Business</h3>
-          </div>
+              <h3>Più di 500.000 tema utilizzano Dropbox Business</h3>
+            </div>
           </div>
         </div>
       </div>
@@ -293,13 +372,12 @@
         <div class="container">
           <div class="row">
             <div class="col-1-1">
-            <a href="#">Scopri di più sui nostri clineti</a>
-          </div>
+              <a href="#">Scopri di più sui nostri clineti</a>
+            </div>
           </div>
         </div>
       </div>
       <!-- end section 9 -->
-       
     </main>
     <footer>
       <div class="container">
