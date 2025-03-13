@@ -15,7 +15,7 @@ ul {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
@@ -23,7 +23,7 @@ ul {
 }
 
 .containerxl {
-  max-width: 950px;
+  max-width: 1050px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
@@ -133,7 +133,7 @@ header {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 10px;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   color: black;
 }
 
@@ -167,6 +167,7 @@ header {
 .titlebig {
   font-size: 4rem;
   font-weight: 800;
+  padding-top: 50px;
 }
 
 .jumbotext * {
@@ -178,7 +179,7 @@ header {
 }
 
 .downarrow {
-  padding-top: 40px;
+  padding-top: 80px;
   font-size: 2rem;
 }
 
