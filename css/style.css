@@ -66,6 +66,11 @@ h3 {
 .col-70 {
   width: 70%;
 }
+
+.col-1-5 {
+  width: calc(100% / 5);
+}
+
 .col-1-6 {
   width: calc(100% / 6);
 }
@@ -328,6 +333,10 @@ header {
 footer {
   background-color: #000000;
   color: white;
+}
+
+.topfooter {
+  padding-top: 50px;
 }
 
 /* footer */
