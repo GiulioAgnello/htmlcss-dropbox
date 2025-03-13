@@ -204,7 +204,7 @@ header {
 }
 
 .title.window {
-  padding: 20px;
+  padding: 10px;
   justify-content: center;
   text-align: center;
   gap: 5px;
@@ -272,18 +272,22 @@ header {
   display: flex;
 }
 
-.team.left {
-  display: block;
-  flex-grow: 2;
-}
-
 .teamleftp {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.tema.right {
-  flex-grow: 1;
+.textteam * {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.buttonaline {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
 }
 
 /* solution */
