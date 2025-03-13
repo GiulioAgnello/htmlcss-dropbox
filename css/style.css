@@ -262,6 +262,10 @@ header {
   display: flex;
   gap: 5px;
   padding-bottom: 10px;
+  font-size: 0.8rem;
+}
+.fa-check {
+  color: #0058f0;
 }
 
 .cardbutton * {
@@ -313,6 +317,16 @@ header {
 .teamleftp {
   padding-top: 10px;
   padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.textteam h4 {
+  font-size: 1.3rem;
+}
+
+.teamleftbutton {
+  font-size: 0.7rem;
 }
 
 .textteam * {
@@ -334,6 +348,14 @@ header {
 
 .textpartner * {
   margin-top: 25px;
+}
+
+.textpartner h4 {
+  font-size: 1.1rem;
+}
+
+.textpartner p {
+  font-size: 0.9rem;
 }
 
 /* operation */
