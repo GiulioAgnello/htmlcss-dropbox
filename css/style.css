@@ -38,6 +38,10 @@ ul {
   margin-right: -1rem;
 }
 
+h3 {
+  font-size: 2rem;
+}
+
 /* utils */
 
 [class*="col"] {
@@ -70,6 +74,8 @@ ul {
   width: 70%;
 }
 
+/* bottoni */
+
 .blu-small {
   background-color: #0061fe;
   color: white;
@@ -88,6 +94,13 @@ ul {
   color: white;
   font-size: 0.7rem;
 }
+
+.bot-white {
+  padding: 8px 10px 8px 10px;
+  border-radius: 0;
+  border-width: 1px;
+}
+/* bottoni */
 
 section {
   padding-top: 50px;
@@ -290,20 +303,23 @@ header {
   padding-top: 20px;
 }
 
-/* solution */
-/* section 5*/
 .partner {
   width: 100%;
 }
 
-/* section 5*/
-/* section 7*/
+.textpartner * {
+  margin-top: 25px;
+}
+
+/* operation */
 
 .operazioni {
   width: 100%;
 }
 
-/* section 7*/
+.textoperation > h4 {
+  padding-bottom: 20px;
+}
 
 /* main */
 
