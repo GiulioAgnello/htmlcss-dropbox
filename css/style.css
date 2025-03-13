@@ -250,6 +250,10 @@ header {
   flex-direction: column;
 }
 
+.check-blu {
+  display: flex;
+}
+
 .costo {
   font-size: 0.7rem;
   font-weight: bold;
