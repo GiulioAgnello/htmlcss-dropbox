@@ -130,18 +130,27 @@ header {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  padding: 10px;
-  font-size: 0.8rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  font-size: 0.7rem;
   color: black;
 }
 
 .head-left > ul {
   display: flex;
-  text-align: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .head-right > ul {
   display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.headlogo {
+  width: 80%;
 }
 
 /* main top */
