@@ -420,13 +420,18 @@ header {
 }
 
 .card {
+  display: flex;
   border: none;
   min-height: 250px;
   width: auto;
+  justify-content: center;
 }
 
 .card img {
   width: 100%;
+}
+
+.change-my-color {
 }
 
 /* card */
