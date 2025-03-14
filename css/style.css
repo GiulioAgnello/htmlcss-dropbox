@@ -370,18 +370,17 @@ header {
 
 .temaopartion {
   padding-top: 200px;
-  margin-left: -1rem;
+
   padding-bottom: 30px;
 }
 
 .temalink a {
-  padding-bottom: 150px;
   text-decoration: underline;
   color: #0061fe;
 }
 
 .temalink {
-  padding-left: 1rem;
+  padding-bottom: 150px;
 }
 
 .operazioni {
