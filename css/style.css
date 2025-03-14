@@ -465,6 +465,19 @@ header {
   background-color: #ffd830;
 }
 
+/* footbonus */
+
+#business {
+  background-color: #b4d0e7;
+  margin-top: 0px;
+}
+
+#business .container {
+  height: 500px;
+}
+
+/* footbonus */
+
 /* bonus */
 
 /* footer */
