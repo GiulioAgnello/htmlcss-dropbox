@@ -27,9 +27,9 @@
       <nav class="head-right">
         <ul>
           <li><a href="#">Supporto</a></li>
-          <li><a href="à">Contatta l'ufficio vendite</a></li>
+          <li><a href="#">Contatta l'ufficio vendite</a></li>
           <li><a href="#">Accedi</a></li>
-          <li><button class="blu-small">inizia</button></li>
+          <li><button class="blu-small"><a href="#"></a>inizia</button></li>
         </ul>
       </nav>
     </header>
@@ -77,11 +77,16 @@
             <h3>Trova il piano business che fa per te</h3>
           </div>
           <div class="checksolution">
-            <button class="circle-blu"></button>
-            <p class="cicleblu-text">fatturazione mensile</p>
-            <button class="circle-white"></button>
-            <p class="circlewhite-text">fatturazione annuale</p>
-          </div>
+            <label for="mensile">
+            <input type="radio" name="payment-type" id="mensile">
+            fatturazione mensile
+          </label>
+          <label for="annuale">
+            <input type="radio" name="payment-type" id="annuale">
+            fatturazione annuale
+          </label>
+        </div>
+            
           <div class="row">
             <div class="col-1-3">
               <div class="card">

@@ -107,12 +107,10 @@ h3 {
 }
 
 button {
-  box-shadow: 0 4px #999;
   cursor: pointer;
 }
 
 button:active {
-  box-shadow: 0 2px #666;
   transform: translateY(4px);
 }
 /* bottoni */
@@ -126,6 +124,12 @@ section {
   width: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.checksolution {
+  gap: 5px;
+  display: flex;
+  align-items: center;
 }
 
 /* head */
@@ -216,21 +220,6 @@ header {
 }
 .checksolution {
   display: flex;
-}
-
-.circle-blu {
-  border-width: 4px;
-  border-radius: 50%;
-  border-color: #0061fe;
-  width: 15px;
-  height: 15px;
-}
-
-.circle-white {
-  border-radius: 50%;
-  border-color: lightgray;
-  width: 15px;
-  height: 15px;
 }
 
 .cicleblu-text {
