@@ -373,6 +373,10 @@ header {
   color: #0061fe;
 }
 
+.temalink {
+  padding-left: 1rem;
+}
+
 .operazioni {
   width: 100%;
 }
