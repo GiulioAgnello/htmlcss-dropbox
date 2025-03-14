@@ -105,6 +105,16 @@ h3 {
   border-radius: 0;
   border-width: 1px;
 }
+
+button {
+  box-shadow: 0 4px #999;
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
 /* bottoni */
 
 section {
